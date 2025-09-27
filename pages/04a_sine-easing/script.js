@@ -28,6 +28,7 @@ button.addEventListener("mouseenter", () => {
   });
 });
 
+
 button.addEventListener("mouseleave", () => {
   gsap.to(button, {
     scale: 1,
